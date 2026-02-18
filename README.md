@@ -1,47 +1,30 @@
-# 📊 API Data Integration & Business Modeling
+# Painel de Gestão Médica
 
-Projeto focado na integração de dados via API e estruturação de modelo analítico orientado à tomada de decisão.
+## Objetivo
 
-## 🎯 Contexto de Negócio
+Desenvolver um dashboard analítico para apoiar a gestão e o monitoramento da base de médicos por especialidade, permitindo visão consolidada e segmentada das informações.
 
-Organizações frequentemente lidam com dados fragmentados em APIs externas. Este projeto transforma dados brutos em informações estruturadas, confiáveis e prontas para análise estratégica.
+## Contexto de Negócio
 
-O objetivo principal foi reduzir esforço manual, aumentar confiabilidade dos dados e acelerar insights para áreas de negócio.
+A ausência de visualização estruturada dificulta o acompanhamento da distribuição de profissionais, podendo impactar planejamento operacional, alocação de recursos e equilíbrio entre especialidades.
 
-## 🧩 Solução Implementada
+## Solução
 
-- Conexão automatizada com API REST
-- Normalização de dados em formato JSON
-- Padronização e tipagem para consistência analítica
-- Estruturação para modelo relacional
-- Preparação para dashboards executivos
+Foi desenvolvido um painel interativo no Power BI com integração via API e tratamento dos dados em Linguagem M, estruturando as informações para análise gerencial.
 
-## 🛠 Stack Utilizada
+O dashboard permite:
 
-- Power BI
-- Linguagem M (Power Query)
-- API REST
-- Modelagem de Dados
+- Visualização do total de médicos cadastrados  
+- Análise da distribuição por especialidade  
+- Filtros dinâmicos para segmentação  
+- Consulta detalhada da base de profissionais  
 
-## 🔎 Abordagem Técnica
+## Tecnologias
 
-A transformação foi desenvolvida integralmente em **Linguagem M**, permitindo:
+- Power BI  
+- Linguagem M (Power Query)  
+- API REST  
 
-- Estruturação de dados hierárquicos
-- Expansão de registros aninhados
-- Criação de métricas derivadas
-- Governança e padronização de tipos
-- Preparação para análises comparativas e temporais
+## Resultado
 
-## 📈 Impacto
-
-- Dados prontos para consumo executivo
-- Redução de inconsistências
-- Base escalável para indicadores estratégicos
-- Apoio à tomada de decisão orientada por dados
-
----
-
-Projeto alinhado a práticas de Business Intelligence e governança de dados.
-
-
+Disponibilização de uma visão clara e estruturada da base médica, apoiando decisões estratégicas relacionadas a dimensionamento, cobertura de especialidades e gestão operacional.
